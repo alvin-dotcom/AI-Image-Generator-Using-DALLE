@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Image-Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="image-generator">
+        <div class="content">
+            <h1>AI Image Generator</h1>
+            <p>Generate whatever you want</p>
+            <form action="#" class="generate-form">
+                <input type="text" class="prompt-input" placeholder="Describe whatever you want to see" required>
+                <div class="controls">
+                    <select class="img-quantity">
+                        <option value="1">1 Images</option>
+                        <option value="2">2 Images</option>
+                        <option value="3">3 Images</option>
+                        <option value="4" selected>4 Images</option>
+                    </select>
+                    <button type="submit" class="generate-btn">Generate</button>
+                </div>
+            </form>
+        </div>
+    </section>
+     <section class="image-gallery">
+        <div class="img-card">
+            <img src="/images/img-1.jpg" alt="image">
+        </div>
+        <div class="img-card">
+            <img src="/images/img-2.jpg" alt="image">
+        </div>
+        <div class="img-card">
+            <img src="/images/img-3.jpg" alt="image">
+        </div>
+        <div class="img-card">
+            <img src="/images/img-4.jpg" alt="image">
+        </div>
+     </section>
+
+
+</body>
+<script src="script.js" defer></script>
+</html>
